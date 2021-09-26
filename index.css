@@ -97,7 +97,7 @@ ul li {
     margin-bottom: 1.875em;
 }
 
-/*⚝。•‧-CONOCIMIENTOS-‧•。⚝*/
+/*⚝。•‧-CONOCIMIENTOS / PROYECTOS-‧•。⚝*/
 
 .conocimientos {
     background-color: #f2f1f9;
@@ -150,6 +150,33 @@ i {
 
 h3 {
     text-align: center;
+}
+
+.proyectos {
+    background-color: white;
+}
+
+.proyectos .titulo-seccion {
+    padding-top: 2em;
+}
+
+.proyectos p {
+    width: 500px;
+    text-align: center;
+    margin: 1em auto;
+}
+
+.proyectos .contenedor-div{
+  width: 65.5em;
+  margin: 5em auto;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.contenedor-div .div-proyecto {
+    width: 20em;
+    height: 20em;
+    margin-top: 20px;
 }
 
 /*⚝。•‧-CITA-‧•。⚝*/
