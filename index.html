@@ -29,7 +29,7 @@
                     <li><a href="#hola" class="menu-link">Hola</a></a></li>
                     <li><a href="#conocimientos" class="menu-link">Conocimientos</a></li>
                     <li><a href="#proyectos" class="menu-link">Proyectos</a></li>
-                    <li><a href="#contacto" class="menu-link contacto">Contacto</a></li>
+                    <li><a href="#contacto" class="menu-link boton-contacto">Contacto</a></li>
                 </ul>
             </nav> 
         </header> 
@@ -38,7 +38,7 @@
         <main>
 
         <!--'*⚝。•‧-Inicio Presentación-‧•。⚝*'-->
-            <section class="intro" id="hola"> 
+            <section class="contenedor-gral" id="hola"> 
             <div>
                 <h2 class="hola-intro">¡Hola! Soy</h2>
                 <h1 class="nombre-intro">Aldana Sorni</h1>
@@ -95,44 +95,44 @@
         <!--'*⚝。•‧-Inicio Proyectos-‧•。⚝*'-->
             <section class="proyectos" id="proyectos"> 
                 <h2 class="titulo-seccion">Mis proyectos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minus saepe dicta, odit vitae explicabo fugiat itaque totam veritatis beatae necessitatibus tempore autem hic commodi, id optio natus aspernatur eligendi.</p>
+                <p>A lo largo de mi cursada, desarrollé los siguientes proyectos que me permitieron demostrar mis habilidades adquiridas:</p>
                 <div class="contenedor-div">
                     <div class="div-proyecto">
-                        <img src="" alt="Imagen Portfolio">
+                        <img src="Images/medianoche.svg" alt="Imagen Portfolio">
                         <h3>Portfolio</h3>
                     </div>
                     <div class="div-proyecto">
-                        <img src="" alt="Imagen Generador">
+                        <img src="Images/appreciation.svg" alt="Imagen Generador">
                         <h3>Generador de memes</h3> 
                     </div>
                     <div class="div-proyecto">
-                        <img src="" alt="Imagen Match 3">
+                        <img src="Images/dream-world.svg" alt="Imagen Match 3">
                         <h3>Match 3</h3>
                     </div>
                     <div class="div-proyecto">
-                        <img src="" alt="Imagen Controlador">
+                        <img src="Images/friends.svg" alt="Imagen Controlador">
                         <h3>Controlador de gastos</h3>
                     </div>
                     <div class="div-proyecto">
-                        <img src="" alt="Imagen Administrador">
+                        <img src="Images/pensamientos.svg" alt="Imagen Administrador">
                         <h3>Administrador de reuniones</h3>
                     </div>
                     <div class="div-proyecto">
-                        <img src="" alt="Imagen Todo App">
+                        <img src="Images/parque.svg" alt="Imagen Todo App">
                         <h3>Todo app</h3>
                     </div>
                     <div class="div-proyecto">
-                        <img src="" alt="Imagen Buscador">
+                        <img src="Images/buscando.svg" alt="Imagen Buscador">
                         <h3>Buscador de películas</h3>
                     </div>
                 </div>
             </section>
 
         <!--'*⚝。•‧-Inicio Contacto-‧•。⚝*'-->
-            <section class="Contacto" id="contacto"> 
+            <section class="contenedor-gral contacto" id="contacto"> 
                 <div>
                     <h2 class="titulo-seccion">Contactame</h2>
-                    <p class="descripcion-seccion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum perferendis nisi blanditiis, quas unde tempore magni quae suscipit. Minus nemo incidunt ab saepe ducimus libero? Vitae magni dolorem impedit quae!
+                    <p class="descripcion-contacto">Me encanta recibir feedback! Te dejo varias opciones para que puedas contactarme si te gustó mi trabajo :)
                     </p>
                     <p class="redes"><a href="https://www.instagram.com/blackmistbasset/">@BlackmistBasset</a></p>
                     <p class="redes"><a href="https://github.com/Bassetl">Bassetl</a></p>
@@ -141,6 +141,15 @@
                 </div>
                 <div>
                     <h2 class="titulo-seccion">Escribime</h2>
+                    <form action="guardar_usuario.html" method="GET" enctype="application/x-www-form-urlencoded">
+                        <p>Tu nombre (*) </p>
+                        <input type="text" name="Nombre" value="Tu nombre" placeholder="Tu nombre:"> </form>
+                        <p>Apellido (*)</p>
+                        <input type="text" name="Apellido" value="Apellido" placeholder="Apellido:"> </form>
+                        <p>E-mail (*)</p>
+                        <input type="email" name="Mail" value="ejemplo@gmail.com" placeholder="ejemplo@gmail.com"> </form>
+                        <p>Mensaje (*)</p>
+                        <input type="text" name="Mensaje" value="mensaje..." placeholder="mensaje..."> </form>
                 </div>
             </section> 
         </main> 

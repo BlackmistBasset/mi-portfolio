@@ -11,6 +11,8 @@ nav {
     height: 6.25em;
     background-color: #68317F;
     margin: 0em;
+    position: fixed;
+    top: 0px;
     -webkit-box-shadow: 0em 0.1875em 0.8125em 0em rgba(194,194,194,1);
     -moz-box-shadow: 0em 0.1875em 0.8125em 0em rgba(194,194,194,1);
     box-shadow: 0em 0.1875em 0.8125em 0em rgba(194,194,194,1);
@@ -26,7 +28,7 @@ ul li {
     display: inline;
     text-decoration: none;
     text-transform: uppercase;
-    margin: auto 1.25em;
+    margin: 0em 1.25em;
 }
 
 .menu-link {
@@ -35,7 +37,7 @@ ul li {
     font-size: 1.125em;
 }
 
-.contacto {
+.boton-contacto {
     background-color: white;
     color: #68317F;
     padding: 0.5em 1.5625em;
@@ -46,17 +48,18 @@ ul li {
 
 /*⚝。•‧-PRESENTACION-‧•。⚝*/
 
-.intro {
+.contenedor-gral {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 60%;
+    height: 50em;
     flex-direction: row;
     margin: 6.25em auto;
     /*border: 1px solid black;*/
 }
 
-.intro div {
+.contenedor-gral div {
     margin: 0.625em 0.625em;
     width: 31.25em;
     /*border: 1px solid black;*/
@@ -107,12 +110,16 @@ ul li {
     margin: 3em auto;
 }
 
+.conocimientos .titulo-seccion {
+    padding-top: 3em;
+
+}
+
 .titulo-seccion {
     font-size: 2.5em;
     color: #68317F;
     text-align: center;
     font-weight: bold;
-    padding-top: 3em;
     font-family: 'Candal', sans-serif;
 }
 
@@ -161,7 +168,7 @@ h3 {
 }
 
 .proyectos p {
-    width: 500px;
+    width: 31.25em;
     text-align: center;
     margin: 1em auto;
 }
@@ -176,8 +183,13 @@ h3 {
 .contenedor-div .div-proyecto {
     width: 20em;
     height: 20em;
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
+
+.div-proyecto img {
+    width: 18em;
+}
+
 
 /*⚝。•‧-CITA-‧•。⚝*/
 
@@ -189,7 +201,7 @@ h3 {
 }
 
 .quote > div {
-    width: 600px;
+    width: 31.25em;
     margin: 0.5em auto;
 }
 
@@ -200,12 +212,42 @@ h3 {
 
 .quote p {
     font-size: 1.3em;
-    margin: 40px auto;
+    margin: 2.5em auto;
 }
 
 .quote p:last-child {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
 }
+
+/*⚝。•‧-CONTACTO-‧•。⚝*/
+
+.contenedor-gral {
+     /*Por una cuestión de comodidad y organización vuelvo a copiarlo,
+      pero son exactamente las mismas propiedades que aparecen en presentación*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 50em;
+    flex-direction: row;
+    margin: 6.25em auto;
+    border: 1px solid black;
+}
+
+.contenedor-gral div {
+    margin: 0.625em 0.625em;
+    width: 31.25em;
+    border: 1px solid black;
+    padding: 5em 0.625em;
+}
+
+.contacto {
+    background-color: #f2f1f9;
+    width: 100%;
+}
+
+
+
 
 
