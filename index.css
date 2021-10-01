@@ -52,52 +52,63 @@ ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 70%;
     height: 50em;
-    flex-direction: row;
     margin: 6.25em auto;
     /*border: 1px solid black;*/
 }
 
 .contenedor-gral div {
-    margin: 0.625em 0.625em;
-    width: 31.25em;
+    
+    min-width: 37.5em;
+    max-width: 37.5em;
+    height: 31.25em;
     /*border: 1px solid black;*/
-    padding: 5em 0.625em;
+    padding: 5em auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.img-intro {
-    display: block;
+
+.contenedor-gral div img {
     /*border: 1px solid black;*/
-    margin-top: 1.25em;
-    margin-left: 3.125em;
+    width: 100%;
+
+}
+
+.div-img {
+    justify-content: center;
+    align-items: center;
 }
 
 .hola-intro {
     font-size: 3.125em;
-    line-height:  0.3125em;
+    line-height: 5px;
+    margin-top: 2.5em;
 }
 
 .nombre-intro {
     color: #B3018A;
     font-family:  'Fredoka One', cursive;
     font-size: 4.375em;
-    line-height: 0.3125em;
+    line-height: 1px;
 }
 
 .boton-intro {
-    width: 9.375em;
-    height: 2.5em;
-    padding: 0.625em 1.875em;
-    margin: 6.25em 0em;
+    width: 10em;
+    height: 2em;
+    margin: 1em 0em;
+    padding-top: 0.8em; 
     background-color: #68317F;
     color: white;
-    border-radius: 1.125em;
+    border-radius: 1.5em;
     text-decoration: none;
+    text-align: center;
 }
 
 .descripcion-intro {
-    margin-bottom: 1.875em;
+  font-size: 1.3em;
 }
 
 /*⚝。•‧-CONOCIMIENTOS / PROYECTOS-‧•。⚝*/
@@ -221,31 +232,6 @@ h3 {
 }
 
 /*⚝。•‧-CONTACTO-‧•。⚝*/
-
-.contenedor-gral {
-     /*Por una cuestión de comodidad y organización vuelvo a copiarlo,
-      pero son exactamente las mismas propiedades que aparecen en presentación*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60%;
-    height: 50em;
-    flex-direction: row;
-    margin: 6.25em auto;
-    border: 1px solid black;
-}
-
-.contenedor-gral div {
-    margin: 0.625em 0.625em;
-    width: 31.25em;
-    border: 1px solid black;
-    padding: 5em 0.625em;
-}
-
-.contacto {
-    background-color: #f2f1f9;
-    width: 100%;
-}
 
 
 
