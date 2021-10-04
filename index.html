@@ -129,40 +129,51 @@
             </section>
 
         <!--'*⚝。•‧-Inicio Contacto-‧•。⚝*'-->
-            <section class="contenedor-gral contacto" id="contacto"> 
-                <div>
+            <section class="contenedor-gral-contacto" id="contacto"> 
+            <div class="contenedor-contacto">
+
+                <div class="div-contacto">
                     <h2 class="titulo-seccion">Contactame</h2>
                     <p class="descripcion-contacto">Me encanta recibir feedback! Te dejo varias opciones para que puedas contactarme si te gustó mi trabajo :)
                     </p>
-                    <p class="redes"><a href="https://www.instagram.com/blackmistbasset/">@BlackmistBasset</a></p>
-                    <p class="redes"><a href="https://github.com/Bassetl">Bassetl</a></p>
-                    <p class="redes"><a href="https://www.linkedin.com/in/aldana-sorni-733946214/">Aldana Sorni</a></p>
-                    <p class="redes"><a href="aldana.sorni@gmail.com">aldana.sorni@gmail.com</a></p>
+                    <div><i class="fab fa-instagram"></i><a href="https://www.instagram.com/blackmistbasset/">@BlackmistBasset</a></div>
+                    <div><i class="fab fa-github-alt"></i><a href="https://github.com/Bassetl">BlackmistBasset</a></div>
+                    <div><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/aldana-sorni-733946214/">Aldana Sorni</a></div>
+                   <div><i class="fas fa-envelope"></i><a href="aldana.sorni@gmail.com">aldana.sorni@gmail.com</a></div>
                 </div>
-                <div>
+
+                <div class="div-contacto">
                     <h2 class="titulo-seccion">Escribime</h2>
                     <form action="guardar_usuario.html" method="GET" enctype="application/x-www-form-urlencoded">
-                        <p>Tu nombre (*) </p>
-                        <input type="text" name="Nombre" value="Tu nombre" placeholder="Tu nombre:"> </form>
-                        <p>Apellido (*)</p>
-                        <input type="text" name="Apellido" value="Apellido" placeholder="Apellido:"> </form>
-                        <p>E-mail (*)</p>
-                        <input type="email" name="Mail" value="ejemplo@gmail.com" placeholder="ejemplo@gmail.com"> </form>
-                        <p>Mensaje (*)</p>
-                        <input type="text" name="Mensaje" value="mensaje..." placeholder="mensaje..."> </form>
+                        <label for="Nombre">Tu nombre (*)
+                        <input type="text" name="Nombre" id="Nombre" value="Tu nombre" ></label>
+                        <label>Apellido (*)
+                        <input type="text" name="Apellido" value="Tu apellido"></label>
+                        <label>E-mail (*)
+                        <input type="email" name="Mail" value="ejemplo@gmail.com"></label>
+                        <label>Mensaje (*)
+                        <textarea name="Mensaje" value="Tu mensaje..." cols="55" rows="10"> </textarea>
+                        <input type="submit" value="Enviar"/></label>
+                    </form>
                 </div>
+            </div>
             </section> 
         </main> 
 
 <!--' * ⚝ 。• ‧ -INICIO FOOTER- ‧ • 。⚝ * '-->
         <footer> 
-            <ul>
+            <ul class="menu-footer">
                 <li>Hola</li>
                 <li>Conocimientos</li>
                 <li>Proyectos</li>
                 <li>Contacto</li>
             </ul>
-            <img src="" alt="Instagram" title="Instagram"><img src="" alt="GitHub" title="GitHub"><img src="" alt="LinkedIn" title="Linkedin" ><img src="" alt="Mail" title="Mail">
+            <div>
+                <a href="https://www.instagram.com/blackmistbasset/"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/Bassetl"><i class="fab fa-github-alt"></i></a>
+                <a href="https://www.linkedin.com/in/aldana-sorni-733946214/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="aldana.sorni@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
             <p>Hecho con ❤ por Aldana :) </p>
         </footer>
     </body> 
