@@ -12,6 +12,12 @@ body {
 
 /*⚝。•‧-NAV BAR-‧•。⚝*/
 
+.contenedor-nav {
+    text-align: right;
+    margin: auto;
+    width: 37.5em;
+    padding-left: 20em;
+}
 
 nav {
     width: 100%;
@@ -25,8 +31,8 @@ nav {
 }
 
 .menu-nav {
-    float: right;
-    padding-right: 19%;
+    /*float: right;
+    padding-right: 19%;*/
     margin-top: 2.5em;
     min-width: 40.625em;
 }
@@ -152,10 +158,6 @@ ul li {
     background-color: #f2f1f9;
 }
 
-.conocimientos p {
-    margin: 3em auto;
-}
-
 .conocimientos .titulo-seccion {
     padding-top: 3em;
 }
@@ -170,7 +172,8 @@ ul li {
 
 .descripcion-seccion {
     text-align: center;
-    margin: 0.625em 40%;
+    margin: 2em auto 4em auto;
+    width: 31.25em;
 }
 
 .contenedor-div {
@@ -179,7 +182,10 @@ ul li {
     flex-wrap: wrap;
     margin: 0em auto;
     justify-content: center;
-    padding-bottom: 4em;
+}
+
+.conocimientos .contenedor-div {
+    padding-bottom: 9em;
 }
 
 .div-cuadro {
@@ -222,17 +228,12 @@ h3 {
     padding-top: 2em;
 }
 
-.proyectos p {
-    width: 31.25em;
-    text-align: center;
-    margin: 1em auto;
-}
-
 .proyectos .contenedor-div{
   width: 65.5em;
   margin: 5em auto;
   align-items: flex-start;
   justify-content: space-between;
+  padding-bottom: 4em;
 }
 
 .contenedor-div .div-proyecto {
