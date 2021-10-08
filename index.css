@@ -14,7 +14,7 @@ nav {
     top: 0px;
     -webkit-box-shadow: 0em 0.1875em 0.8125em 0em rgba(194,194,194,1);
     -moz-box-shadow: 0em 0.1875em 0.8125em 0em rgba(194,194,194,1);
-    box-shadow: 0em 0.1875em 0.8125em 0em rgba(194,194,194,1);
+    box-shadow: 0em 0.1875em 0.8125em 0em rgb(194, 194, 194);
 }
 
 ul {
@@ -34,6 +34,30 @@ ul li {
     text-decoration: none;
     color: white;
     font-size: 1.125em;
+    padding: 0.5em 0.5em;
+}
+
+.menu-link:hover {
+    text-shadow: 0px 0px 5px #f2f1f9;
+}
+
+.menu-link:focus {
+    border: 1px solid #f2f1f9;
+    border-radius: 1.25em;
+    padding: 0.5em 0.4375em;
+
+}
+
+.boton-contacto:hover {
+    box-shadow: 0px 0px 6px 1px #f2f1f9;
+    color: #B3018A;
+}
+
+.boton-contacto:focus {
+    border: 1px solid #f2f1f9;
+    border-radius: 1.25em;
+    padding: 0.5em 1.5em;
+
 }
 
 .boton-contacto {
@@ -106,6 +130,15 @@ ul li {
     text-align: center;
 }
 
+.boton-intro:hover {
+    background-color: #B3018A;
+}
+
+.boton-intro:focus {
+    text-shadow: 0px 0px 5px #f2f1f9;
+    font-weight: bold;
+}
+
 .descripcion-intro {
   font-size: 1.3em;
 }
@@ -147,7 +180,7 @@ ul li {
     padding-bottom: 8.5em;
 }
 
-.contenedor-div div {
+.div-cuadro {
     width: 14.375em;
     height: 12.5em;
     background-color: white;
@@ -159,6 +192,16 @@ ul li {
     justify-content: center;
     flex-direction: column;
 }
+
+.div-cuadro:hover {
+    box-shadow: 0px 0px 6px 1px #B3018A;
+    color: #B3018A;
+} 
+
+.div-cuadro:active {
+    box-shadow: 0px 0px 6px 1px #68317F;
+    color: #B3018A;
+} 
 
 i {
     font-size: 5em;
@@ -174,7 +217,7 @@ h3 {
 }
 
 .proyectos .titulo-seccion {
-    padding-top: 2em;
+    padding-top: 4em;
 }
 
 .proyectos p {
@@ -196,6 +239,14 @@ h3 {
     margin-top: 1.25em;
 }
 
+.div-proyecto a {
+    text-decoration: none;
+}
+
+.div-proyecto a:focus {
+    color: #B3018A;
+}
+
 .div-proyecto img {
     width: 18em;
 }
@@ -215,14 +266,15 @@ h3 {
     margin: 0.5em auto;
 }
 
-.quote i {
+.quote .fas {
     font-size: 5em;
     margin-top: 0.8em;
+    color: white;
 }
 
 .quote p {
     font-size: 1.3em;
-    margin: 2.5em auto;
+    margin: 2.5em 0em;
 }
 
 .quote p:last-child {
@@ -242,7 +294,7 @@ h3 {
 }
 
 .contenedor-contacto {
-    border: 1px solid #B3018A;
+    border: 1px solid #68317F;
     border-radius: 20px;
     width: 60%;
     background-color: white;
@@ -255,32 +307,60 @@ h3 {
 .div-contacto {
     width: 40em;
     padding-left: 2em;
-    /*margin: 1em 0.5em 10em 0.5em;
-    border: 1px solid black;*/
 }
     
 .div-contacto h2 {
     text-align: left;
-    margin-top: 1.5em;
+    margin-top: 2em;
+    padding-left: 0.3em;
 }
 
 .div-contacto p {
     margin-bottom: 2em;
-    max-width: 30em;
+    max-width: 25em;
+    padding: 2em 1em 1em 1em;
 }
 
-.fab, .fas {
+.icono-contacto {
     font-size: 1.3em;
-    margin: 0.5em 0.8em;
-    color: #68317F;
+    margin: 0.2em 0em 0em 1.5em;
+    color: white;
+    background-color: #68317F;
+    padding: 0.5em;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.fa-linkedin-in {
+    padding: 0.5em 0.5625em;
 }
 
 .div-contacto a {
     color: #68317F;
     text-decoration: none;
     font-size: 1.1em;
+    margin-left: 1em;
+    /*border: 1px solid black;*/
 }
 
+.link-contacto {
+    margin: 0.5em 0em;
+    /*border: 1px solid black;*/
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.link-contacto:hover a {
+    color: #B3018A;
+
+}
+
+.link-contacto:hover i {
+    background-color: #B3018A;
+    color: white;
+}
 /*⚝。•‧-FORMULARIO-‧•。⚝*/
 
 form {
@@ -290,13 +370,23 @@ form {
 input[type=submit] {
     font-family: 'Karla', sans-serif;
     font-size: 1em;
-    border-radius: 20px;
+    border-radius: 15px;
     background-color:#68317F;
+    border-style: none;
     color: white;
-    padding: 5px;
+    padding: 8px 5px;
     width: 100px;
     display: block;
     margin: 0px 0px 80px 20px;
+}
+
+input[type=submit]:hover {
+    background-color:#B3018A;
+}
+
+input[type=submit]:focus {
+    background-color: #68317F;
+    box-shadow: 1px 1px 3px 2px #ccc;
 }
 
 input[type=mail] {
@@ -306,7 +396,11 @@ input[type=mail] {
     border-style: none;
     background-color: #f2f1f9;
     border-radius: 5px 5px 5px 5px;
-    
+}
+
+input[type=mail]:focus {
+    box-shadow: 0px 0px 5px 1px #B3018A;
+    outline: 1px #B3018A;
 }
 
 input[type=text] {
@@ -315,7 +409,11 @@ input[type=text] {
     border-style: none;
     background-color: #f2f1f9;
     border-radius: 5px 5px 5px 5px;
-    
+}
+
+input[type=text]:focus {
+    box-shadow: 0px 0px 5px 1px #B3018A;
+    outline: 1px #B3018A;
 }
 
 label {
@@ -335,6 +433,11 @@ textarea {
     min-height: 100px;
     background-color: #f2f1f9;
     border-radius: 5px 5px 5px 5px;
+}
+
+textarea:focus {
+    box-shadow: 0px 0px 5px 1px #B3018A;
+    outline: 1px #B3018A;
 }
 
 .datos-form {
@@ -370,12 +473,32 @@ footer {
 
 footer .fab, footer .fas {
     color: white;
-    margin: 10px auto;
-    padding: 5px 20px;
+    margin: 10px 12px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    font-size: 1.5em;
+    text-align: center;
+    border: 1px solid #68317F;
+}
+
+footer i:hover {
+    border: 1px solid white;
+    text-shadow: 0px 0px 5px #f2f1f9;
+}
+
+footer i:active {
+    background-color: white;
+    color: #68317F;
+}
+
+footer .fa-linkedin-in, footer .fa-instagram {
+    padding: 10px 11px;
 }
 
 footer>p {
     text-align: center;
+    padding-bottom: 50px;
+    text-shadow: 0px 0px 5px #f2f1f9;
 }
 
 footer>ul {
@@ -385,12 +508,20 @@ footer>ul {
     text-align: center;
 }
 
-footer>div {
+.redes-footer {
     height: 50px;
-    margin: 30px auto;
+    margin: 30px 0px 30px 20px;
     text-align: center;
 }
 
+.menu-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-footer a:hover {
+    text-shadow: 0px 0px 5px #f2f1f9;
+}
 
 
 
