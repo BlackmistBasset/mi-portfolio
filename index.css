@@ -31,8 +31,6 @@ nav {
 }
 
 .menu-nav {
-    /*float: right;
-    padding-right: 19%;*/
     margin-top: 2.5em;
     min-width: 40.625em;
 }
@@ -80,6 +78,22 @@ ul li {
     font-weight: bold;
 }
 
+@media (max-width: 1100px) {
+    nav {
+        display: none;
+    }
+
+    .contenedor-intro {
+        flex-direction: column;
+        height: 60em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .div-img {
+        margin: 100px auto;
+    }
+}
 
 /*⚝。•‧-PRESENTACION-‧•。⚝*/
 
@@ -91,24 +105,33 @@ ul li {
     height: 50em;
     margin: 6.25em auto;
     background-color: white;
+    width: 100%;   
 }
 
-.contenedor-gral div {
-    min-width: 35em;
-    max-width: 35em;
+.contenedor-intro {
     height: 31.25em;
-    padding: 5em auto;
+    margin: auto;
+    display: flex;
+}
+
+.div-hola {
+    width: 35em;
+    height: 31em;
+    padding-left: 4em;
     display: flex;
     flex-direction: column;
-}
-
-.contenedor-gral div img {
-    width: 100%;
+    box-sizing: border-box;
 }
 
 .div-img {
-    justify-content: center;
+    display: flex;
+    justify-content: end;
     align-items: center;
+    width: 35em;
+}
+
+.div-img img {
+    width: 100%;
 }
 
 .hola-intro {
@@ -122,6 +145,7 @@ ul li {
     font-family:  'Fredoka One', cursive;
     font-size: 4.375em;
     line-height: 0.0625em;
+    width: 100%;
 }
 
 .boton-intro {
@@ -156,6 +180,7 @@ ul li {
 
 .conocimientos {
     background-color: #f2f1f9;
+    width: 100%;
 }
 
 .conocimientos .titulo-seccion {
@@ -222,6 +247,7 @@ h3 {
 
 .proyectos {
     background-color: white;
+    width: 100%;
 }
 
 .proyectos .titulo-seccion {
