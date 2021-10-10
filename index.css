@@ -7,6 +7,7 @@ body {
     font-family: 'Karla', sans-serif;
     margin: 0em;
     padding: 0em;
+    box-shadow: inset -15px 6px 14px -14px #BABABA;
 }
 
 
@@ -105,6 +106,7 @@ ul li {
     margin: 6.25em auto;
     background-color: white;
     width: 100%;   
+    box-shadow: inset -15px 6px 14px -14px #BABABA;
 }
 
 .contenedor-intro {
@@ -336,6 +338,7 @@ ul li {
 .conocimientos {
     background-color: #f2f1f9;
     width: 100%;
+    box-shadow: inset -15px 6px 14px -14px #BABABA;
 }
 
 .conocimientos .titulo-seccion {
@@ -394,9 +397,7 @@ h3 {
 .proyectos {
     background-color: white;
     width: 100%;
-}
-
-.proyectos .titulo-seccion {
+    box-shadow: inset -15px 6px 14px -14px #BABABA;
     padding-top: 2em;
 }
 
@@ -544,6 +545,7 @@ h3 {
     color: white;
     text-align: center;
     padding: 2em 0em;
+    box-shadow: inset -15px 6px 14px -14px #BABABA;
 }
 
 .quote > div {
@@ -592,6 +594,7 @@ h3 {
     padding: 8em 0em;
     display: flex;
     width: 100%;
+    box-shadow: inset -15px 6px 14px -14px #BABABA;
 }
 
 .contenedor-contacto {
@@ -947,6 +950,7 @@ footer {
     color: white;
     height: 18.75em;
     width: 100%;
+    box-shadow: inset -15px 6px 14px -14px #BABABA;
 }
 
 footer .fab, footer .fas {
