@@ -42,7 +42,7 @@ No fue fácil elegir una frase para incluir en mi portfolio, pero elegí ésta p
 Desde ésta sección, al finalizar el curso, se podrá acceder a todos los proyectos que fui realizando a lo largo del mismo. El primero es éste mismo! :) 
 
 ## Contacto
-![Screen Contacto](/Images/Contacto.JPG)
+![Screen Contacto](/Images/contacto.JPG)
 
 En ésta sección están todas las redes que utilizo, y además hay un formulario propio de contacto (aunque es de muestra). Sin dudas éste último fue uno de los elementos más complejos de estilar para mí :sweat_smile:
 
