@@ -22,32 +22,32 @@ La paleta de colores la extraje de la imagen de la presentación en tonos que me
 
 
 ## Presentación
-![Screen Presentacion](/Images/intro.jpg)
+![Screen Presentacion](/Images/intro.JPG)
 
 Para la presentación busqué una imagen con la que me sintiese identificada, y elegí ésta porque me encanta estar al aire libre y la naturaleza.
 
 ## Conocimientos
-![Screen Conocimientos](/Images/conocimientos.png)
+![Screen Conocimientos](/Images/conocimientos.JPG)
 
 Luego de la presentación pasamos directamente a los conocimientos que adquiriré a lo largo de la cursada.
 
 ## Cita
-![Screen Cita](/Images/cita.jpg)
+![Screen Cita](/Images/cita.JPG)
 
 No fue fácil elegir una frase para incluir en mi portfolio, pero elegí ésta porque considero que es fundamental tener siempre presente el impacto que generamos en los demás.
 
 ## Proyectos 
-![Screen Proyectos](/Images/proyectos.jpg)
+![Screen Proyectos](/Images/proyectos.JPG)
 
 Desde ésta sección, al finalizar el curso, se podrá acceder a todos los proyectos que fui realizando a lo largo del mismo. El primero es éste mismo! :) 
 
 ## Contacto
-![Screen Contacto](/Images/Contacto.jpg)
+![Screen Contacto](/Images/Contacto.JPG)
 
 En ésta sección están todas las redes que utilizo, y además hay un formulario propio de contacto (aunque es de muestra). Sin dudas éste último fue uno de los elementos más complejos de estilar para mí :sweat_smile:
 
 ## Footer
-![Screen Footer](/Images/footer.jpg)
+![Screen Footer](/Images/footer.JPG)
 
 En el pie de página tenemos otro pequeño menú que lleva a las distintas secciones, y botoncitos con mis redes. Lo que más me gusta de mi portfolio es el "Hecho con ♥" que tiene el efecto del brillo :sparkles:
 
