@@ -411,6 +411,10 @@ h3 {
   padding-bottom: 4em;
 }
 
+.proyectos .titulo-seccion {
+    padding-top: 2em;
+}
+
 .contenedor-div .div-proyecto {
     width: 20em;
     height: 20em;
